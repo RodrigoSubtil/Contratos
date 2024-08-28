@@ -1,0 +1,63 @@
+.header {
+    padding-top: 1rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 20px; 
+    box-sizing: border-box; 
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center; 
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+.cabecalho-logo {
+    text-align: center;
+    padding-right: 4rem;
+    list-style-type: none;
+}
+
+.cabecalho-opcoes {
+    padding: 0 1.3rem 0 1.3rem;
+    font-size: 16px;
+    list-style-type: none;
+}
+
+.menu {
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+    color: var(--azul-claro);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.menu-cadastrar {
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--vermelho);
+}
+
+.botao-cadastrar__cabecalho {
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    background-color: var(--vermelho);
+    border: none;
+    padding: 1rem;
+}
+
+.cabecalho-login {
+    display: flex;
+    align-items: center;
+    margin-left: 21rem;
+}

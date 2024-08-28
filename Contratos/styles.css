@@ -1,0 +1,24 @@
+@import url("styles.css");
+@import url("styles/header.css");
+@import url("styles/section.css");
+@import url("styles/rodape.css");
+
+:root {
+    --cor-de-fundo: #FFFFFF;
+    --branco: #FFFFFF;
+    --azul-claro: #667085;
+    --fonte-principal: 'Inter', sans-serif;
+    --vermelho: #8E2424;
+    --azul-ciano: #101828;
+    --vermelho-claro: #8E24240D;
+}
+
+body, html {
+    background-color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
